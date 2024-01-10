@@ -1,0 +1,8 @@
+<h1>Stat</h1>
+
+<table>
+    <tr th:each="stat : ${stats}">
+        <td th:text="${stat.id}">id</td>
+        <td th:text="${stat.username}">username</td>
+    </tr>
+</table>
